@@ -5,11 +5,11 @@ module.exports = {
     defaultLocale: 'en',
     domains: [
       {
-        domain: 'example.com',
+        domain: 'i18nnextjs--fahtestwei.us-east5.hosted.app',
         defaultLocale: 'en',
       },
       {
-        domain: 'example.fr',
+        domain: 'french.i18nnextjs--fahtestwei.us-east5.hosted.app',
         defaultLocale: 'fr',
       },
     ],
