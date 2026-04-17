@@ -1,15 +1,17 @@
 module.exports = {
   basePath: '/docs',
   i18n: {
-    locales: ['en', 'fr', 'es'],
+    locales: ['en', 'fr'],
     defaultLocale: 'en',
-  },
-  async rewrites() {
-    return [
+    domains: [
       {
-        source: '/about',
-        destination: '/',
+        domain: 'example.com',
+        defaultLocale: 'en',
       },
-    ]
+      {
+        domain: 'example.fr',
+        defaultLocale: 'fr',
+      },
+    ],
   },
 }
